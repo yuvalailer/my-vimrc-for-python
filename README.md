@@ -3,7 +3,7 @@
 
 
 ### How To Install/Use:
-Run the next script in your bash terminal (as superuser), and your Vim settings will be replaced with mine.
+Run the next script in your bash terminal, and your Vim settings will be replaced with mine.
 
 The old settings will be saved in /etc/vim-old directory. 
 
