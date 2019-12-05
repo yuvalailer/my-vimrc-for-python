@@ -8,18 +8,18 @@ Run the next script in your bash terminal (as superuser), and your Vim settings 
 The old settings will be saved in /etc/vim-old directory. 
 
 ```bash
-$ git clone https://github.com/yuvalailer/my-vimrc-for-python.git /etc/vim-new ;\
-mv /etc/vim /etc/vim-old ;\
-mv /etc/vim-new /etc/vim
+$ sudo git clone https://github.com/yuvalailer/my-vimrc-for-python.git /etc/vim-new ;\
+sudo mv /etc/vim /etc/vim-old ;\
+sudo mv /etc/vim-new /etc/vim
 ```
 
 ### How to Undo:
 ```bash
-$ mv /etc/vim /etc/vim-from-github ;\
-mv /etc/vim-old /etc/vim
+$ sudo mv /etc/vim /etc/vim-from-github ;\
+sudo mv /etc/vim-old /etc/vim
 
 # optional:
-rm -r /etc/vim-from-github
+sudo rm -r /etc/vim-from-github
 ```
 
 
